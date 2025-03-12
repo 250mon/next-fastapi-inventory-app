@@ -12,17 +12,16 @@ python-multipart = "*"
 alembic = "*"
 passlib = "*"
 bcrypt = "*"
-jwt = "*"
 pydantic = {extras = ["email"], version = "*"}
 pytest = "*"
 pytest-cov = "*"
 httpx = "*"
 python-jose = {extras = ["cryptography"], version = "*"}
-pyjwt = "*"
 pytest-asyncio = "*"
 python-dotenv = "*"
+pyjwt = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.12"
+python_version = "3.13"
